@@ -10,6 +10,7 @@
   <?php $this->load->view('includes/nav'); ?>
 
   <?php $this->load->view('includes/aside'); ?>
+  <?php $role = $this->session->userdata('role'); ?>
 
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
@@ -101,6 +102,7 @@
               </div>
             </div>
           </div>
+          <?php if ($role === 'admin'): ?>
           <div class="col-12">
             <div class="card card-success">
               <div class="card-header">
@@ -113,6 +115,7 @@
               </div>
             </div>
           </div>
+          <?php endif; ?>
         </div>
       </div><!-- /.container-fluid -->
     </section>

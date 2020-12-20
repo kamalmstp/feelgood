@@ -47,7 +47,7 @@
                   <th>Jumlah Uang</th> 
                   <th>Diskon</th> 
                   <th>Pelanggan</th> 
-                  <th>Action</th> 
+                  <th>Action</th>
                 </tr>
               </thead>
             </table>

@@ -78,7 +78,7 @@
     <form id="form">
       <div class="form-group">
         <label>Tanggal</label>
-        <input id="tanggal" type="text" class="form-control" placeholder="Kategori" name="tanggal" required>
+        <input id="tanggal" type="text" class="form-control" placeholder="Kategori" name="tanggal" readonly="readonly">
       </div>
       <div class="form-group">
         <label>Barcode</label>

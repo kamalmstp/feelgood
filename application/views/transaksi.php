@@ -112,7 +112,7 @@
     <form id="form">
       <div class="form-group">
         <label>Tanggal</label>
-        <input type="text" class="form-control" name="tanggal" id="tanggal" required>
+        <input type="text" class="form-control" name="tanggal" id="tanggal" readonly="readonly">
       </div>
       <div class="form-group">
         <label>Pelanggan</label>

@@ -31,8 +31,9 @@ class Transaksi extends CI_Controller {
 					'jumlah_uang' => $transaksi->jumlah_uang,
 					'diskon' => $transaksi->diskon,
 					'pelanggan' => $transaksi->pelanggan,
-					'action' => '<a class="btn btn-sm btn-success" href="'.site_url('transaksi/cetak/').$transaksi->id.'">Print</a> <button class="btn btn-sm btn-danger" onclick="remove('.$transaksi->id.')">Delete</button>'
+					'action' => '<a class="btn btn-sm btn-success" href="'.site_url('transaksi/cetak/').$transaksi->id.'">Print</a>'
 				);
+				// <button class="btn btn-sm btn-danger" onclick="remove('.$transaksi->id.')">Delete</button>
 			}
 		} else {
 			$data = array();

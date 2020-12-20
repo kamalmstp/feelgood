@@ -11,10 +11,14 @@
 <body class="hold-transition login-page">
 
   <div class="login-box">
-    <div class="login-logo">Login</div>
+    <div class="login-logo">
+      
+    </div>
     <div class="card">
       <div class="card-body login-card-body">
-        <p class="login-box-msg">Login untuk masuk</p>
+        <p class="login-box-msg">
+        <img src="<?php echo base_url('assets/img/logo1.png') ?>" alt="">
+        </p>
         <div class="alert alert-danger d-none"></div>
         <form>
           <div class="input-group mb-3">
